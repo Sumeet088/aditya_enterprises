@@ -1182,6 +1182,20 @@ ul {
   margin-top: 60px;
 }
 
+.ba-container + .ba-container {
+  margin-top: 80px;
+  padding-top: 80px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.ba-container-reverse {
+  direction: rtl;
+}
+
+.ba-container-reverse > * {
+  direction: ltr;
+}
+
 .ba-slider {
   position: relative;
   border-radius: var(--radius-lg);
@@ -2522,6 +2536,19 @@ body.menu-open {
   .ba-container {
     grid-template-columns: 1fr;
     gap: 36px;
+  }
+
+  .ba-container-reverse {
+    direction: ltr;
+  }
+
+  .ba-container-reverse .ba-slider {
+    order: -1;
+  }
+
+  .ba-container + .ba-container {
+    margin-top: 50px;
+    padding-top: 50px;
   }
 
   .ba-slider {
