@@ -3292,3 +3292,26 @@ body.menu-open {
     padding: 30px 0;
   }
 }
+
+/* ---------- SEO & Accessibility Utilities ---------- */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* stat-value replaces h3 in hero stats for proper heading hierarchy */
+.hero-stat .stat-value {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.2;
+}

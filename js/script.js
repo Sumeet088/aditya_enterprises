@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const openMenu = () => {
     savedScrollY = window.scrollY;
     menuToggle.classList.add('active');
+    menuToggle.setAttribute('aria-expanded', 'true');
     navLinks.classList.add('open');
     document.body.classList.add('menu-open');
     document.body.style.top = `-${savedScrollY}px`;
@@ -49,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const closeMenu = () => {
     menuToggle.classList.remove('active');
+    menuToggle.setAttribute('aria-expanded', 'false');
     navLinks.classList.remove('open');
     document.body.classList.remove('menu-open');
     document.body.style.top = '';

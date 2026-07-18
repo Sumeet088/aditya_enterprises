@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://adityanaturescape.com/</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://adityanaturescape.com/images/compressed/logo.jpg</image:loc>
+      <image:title>Aditya Enterprises Logo</image:title>
+      <image:caption>Aditya Enterprises — Premium Landscape Design and Garden Solutions in Chiplun, Maharashtra</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://adityanaturescape.com/images/compressed/project-04.jpg</image:loc>
+      <image:title>Garden Design Project by Aditya Enterprises</image:title>
+      <image:caption>Premium garden design project showcasing lush green landscaping in Chiplun</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://adityanaturescape.com/images/compressed/project-01.jpg</image:loc>
+      <image:title>Vertical Green Wall Project</image:title>
+      <image:caption>Residential vertical green wall installed by Aditya Enterprises</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://adityanaturescape.com/images/compressed/Provide.jpg</image:loc>
+      <image:title>Complete Garden Solutions</image:title>
+      <image:caption>Full range of landscaping and horticulture services by Aditya Enterprises</image:caption>
+    </image:image>
+  </url>
+
+  <!-- About Section -->
+  <url>
+    <loc>https://adityanaturescape.com/#about</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Services Section -->
+  <url>
+    <loc>https://adityanaturescape.com/#services</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Projects Section -->
+  <url>
+    <loc>https://adityanaturescape.com/#projects</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Section -->
+  <url>
+    <loc>https://adityanaturescape.com/#contact</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
